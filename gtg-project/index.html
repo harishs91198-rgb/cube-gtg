@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+    rel="stylesheet">
+  <link href="../gtg-project/css/style.css" type="text/css" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+  <header id="Header">
+    <div class="container">
+      <div class="header-wrap">
+        <div class="logo">
+          <a href="#">
+            <p>GTG</p>
+          </a>
+        </div>
+        <div class="menu-wrap">
+          <ul class="main-menu">
+            <li><a href="#">Home</a></li>
+            <li>
+              <a href="#">Shop <span><img src="../gtg-project/assets/chevron-down-icon.svg"></span></a>
+              <ul class="sub-menu">
+                <li><a href="#">submenu 1</a></li>
+                <li><a href="#">submenu 2</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Fragrances</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div class="access-wrap">
+          <div class=""><img src="../gtg-project/assets/search-icon.png"></div>
+          <a href="#" class="primary-cta">Shop Now</a>
+          <div class="menuicon">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </header>
+  <section id="Banner">
+    <div class="banner-image">
+      <picture>
+        <source media="(max-width: 575.98px)" srcset="../gtg-project/assets/mobile-banner-image.jpg" alt="Banner image">
+        <source media="(max-width: 991.98px)" srcset="../gtg-project/assets/tablet-banner-image.jpg" alt="Banner image">
+        <img src="../gtg-project/assets/banner-desktop.jpg" alt="Digital engineering services banner">
+      </picture>
+
+
+
+      <!-- <img src="../gtg-project/assets/banner-desktop.jpg" alt="banner-image"> -->
+    </div>
+    <div class="banner-inner-wrap">
+      <div class="container">
+        <div class="banner-content">
+          <p class="medal">
+            <img src="../gtg-project/assets/medal.svg" alt="medal">
+            Awarded the best perfume in the world
+          </p>
+          <h1>Live your best life.</h1>
+          <div class="banner-promo">
+            <div class="each-promo">
+              <h3>10x</h3>
+              <p>power</p>
+            </div>
+            <div class="each-promo">
+              <h3>9</h3>
+              <p>ingredients</p>
+            </div>
+            <div class="each-promo">
+              <h3>20K+</h3>
+              <p>happy customers</p>
+            </div>
+          </div>
+          <a href="#" class="primary-cta">Shop Now</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="ProductCarousel">
+    <div class="container">
+      <div class="inner-wrapper">
+        <div class="carousel">
+          <div class="main-slider">
+            <img id="mainImage" src="/gtg-project/assets/product-one.png" alt="images">
+            <div class="navs">
+              <button id="prevBtn" class="nav left">
+                <img src="../gtg-project/assets/left-arrow-button.svg" alt="image">
+              </button>
+              <button id="nextBtn" class="nav right">
+                <img src="../gtg-project/assets/right-arrow-button.svg" alt="arrow">
+              </button>
+            </div>
+            <div class="dots">
+              <span class="dot active"></span>
+              <span class="dot"></span>
+              <span class="dot"></span>
+              <span class="dot"></span>
+              <span class="dot"></span>
+              <span class="dot"></span>
+              <span class="dot"></span>
+              <span class="dot"></span>
+            </div>
+          </div>
+          <div class="thumbnails">
+            <img src="/gtg-project/assets/product-one.png" data-index="0" class="thumb active">
+            <img src="/gtg-project/assets/thumbnail-one.jpg" data-index="1" class="thumb">
+            <img src="/gtg-project/assets/thumbnail-two.jpg" data-index="2" class="thumb">
+            <img src="/gtg-project/assets/thumbnail-three.jpg" data-index="3" class="thumb">
+            <img src="/gtg-project/assets/thumbnail-four.jpg" data-index="4" class="thumb">
+            <img src="/gtg-project/assets/thumbnail-one.jpg" data-index="5" class="thumb">
+            <img src="/gtg-project/assets/thumbnail-two.jpg" data-index="6" class="thumb">
+            <img src="/gtg-project/assets/thumbnail-three.jpg" data-index="7" class="thumb">
+          </div>
+        </div>
+        <div class="product-details">
+          <div class="product-description">
+            <h2>GTG Perfumes</h2>
+            <div class="ratings">
+              <p><img src="../gtg-project/assets/4.7-star.svg" alt="star">4.7 (999+ reviews)</p>
+
+            </div>
+            <p>Experience the timeless allure backed by modern artistry, captured in every bottle of our fragrance.
+              Crafted for those who seek to elevate their essence with purpose and sophistication.</p>
+          </div>
+          <div class="subscription">
+            <div class="each-subscription">
+              <div class="promo-tag">
+                Most Popular
+              </div>
+              <div class="sub-type">
+                <div class="radio-wrap">
+                  <span></span>
+                  <input type="radio" class="radio" value="Single Subscription">
+                  <h4>Single Subscription</h4>
+                </div>
+
+                <div class="price">
+                  <p>$99.99<span>$146</span></p>
+                </div>
+              </div>
+              <div class="sub-pro-detail">
+                <div class="main-product">
+                  <p>Choose a Fragrance</p>
+                  <div class="product-list">
+                    <div class="each-product">
+                      <div class="radio-wrap">
+                        <span></span>
+                        <input type="radio" class="radio" value="Original" data-url="sample-page-1.html">
+                        <p>Original</p>
+                      </div>
+                      <div class="product-image">
+                        <img src="../gtg-project/assets/origonal.png" alt="image">
+                      </div>
+                    </div>
+                    <div class="each-product">
+                      <div class="radio-wrap">
+                        <span></span>
+                        <input type="radio" class="radio" value="Lily" data-url="sample-page-2.html">
+                        <p>Lily</p>
+                      </div>
+                      <div class="product-image">
+                        <img src="../gtg-project/assets/lilly.png" alt="image">
+                      </div>
+                    </div>
+                    <div class="each-product">
+                      <div class="radio-wrap">
+                        <span></span>
+                        <input type="radio" class="radio" value="Rose" data-url="sample-page-3.html">
+                        <p>Rose</p>
+                      </div>
+                      <div class="product-image">
+                        <img src="../gtg-project/assets/rose.png" alt="image">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="included">
+                  <p>What’s Included:</p>
+                  <div class="included-wrap">
+                    <div class="main-prod">
+                      <p>Every 30 Days</p>
+                      <div class="prod-image">
+                        <img src="../gtg-project/assets/origonal.png" alt="image">
+                      </div>
+                    </div>
+                    <div class="free-prod">
+                      <p>One Time <span>(Free)</span></p>
+                      <div class="pro-img-wrpa">
+                        <div class="prod-image">
+                          <img src="../gtg-project/assets/origonal.png" alt="image">
+                        </div>
+                        <div class="prod-image">
+                          <img src="../gtg-project/assets/lilly.png" alt="image">
+                        </div>
+                        <div class="prod-image">
+                          <img src="../gtg-project/assets/rose.png" alt="image">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="prod-feature">
+                  <ul>
+                    <li>1 bottle shipped monthly</li>
+                    <li><span>Free</span> Sampler for original, lily and rose fragrances</li>
+                    <li><span>50% OFF Shipping</span></li>
+                    <li>Pause or Cancel Anytime after 3 months minimum</li>
+                    <li>28 Day Money Back Guarantee*</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="each-subscription">
+              <div class="sub-type">
+                <div class="radio-wrap">
+                  <span></span>
+                  <input type="radio" class="radio" value="Double Subscription">
+                  <h4>Double Subscription</h4>
+                </div>
+
+                <div class="price">
+                  <p>$169.99<span>$146</span></p>
+                </div>
+              </div>
+              <div class="sub-pro-detail">
+                <div class="main-product">
+                  <p>Choose Fragrance 1</p>
+                  <div class="product-list">
+                    <div class="each-product">
+                      <div class="radio-wrap">
+                        <span></span>
+                        <input type="radio" class="radio" value="Original" data-url="sample-page-4.html">
+                        <p>Original</p>
+                      </div>
+                      <div class="product-image">
+                        <img src="../gtg-project/assets/origonal.png" alt="image">
+                      </div>
+                    </div>
+                    <div class="each-product">
+                      <div class="radio-wrap">
+                        <span></span>
+                        <input type="radio" class="radio" value="Lily" data-url="sample-page-5.html">
+                        <p>Lily</p>
+                      </div>
+                      <div class="product-image">
+                        <img src="../gtg-project/assets/lilly.png" alt="image">
+                      </div>
+                    </div>
+                    <div class="each-product">
+                      <div class="radio-wrap">
+                        <span></span>
+                        <input type="radio" class="radio" value="Rose" data-url="sample-page-6.html">
+                        <p>Rose</p>
+                      </div>
+                      <div class="product-image">
+                        <img src="../gtg-project/assets/rose.png" alt="image">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="main-product">
+                  <p>Choose Fragrance 2</p>
+                  <div class="product-list">
+                    <div class="each-product">
+                      <div class="radio-wrap">
+                        <span></span>
+                        <input type="radio" class="radio" value="Original" data-url="sample-page-7.html">
+                        <p>Original</p>
+                      </div>
+                      <div class="product-image">
+                        <img src="../gtg-project/assets/origonal.png" alt="image">
+                      </div>
+                    </div>
+                    <div class="each-product">
+                      <div class="radio-wrap">
+                        <span></span>
+                        <input type="radio" class="radio" value="Lily" data-url="sample-page-8.html">
+                        <p>Lily</p>
+                      </div>
+                      <div class="product-image">
+                        <img src="../gtg-project/assets/lilly.png" alt="image">
+                      </div>
+                    </div>
+                    <div class="each-product">
+                      <div class="radio-wrap">
+                        <span></span>
+                        <input type="radio" class="radio" value="Rose" data-url="sample-page-9.html">
+                        <p>Rose</p>
+                      </div>
+                      <div class="product-image">
+                        <img src="../gtg-project/assets/rose.png" alt="image">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="included">
+                  <p>What’s Included:</p>
+                  <div class="included-wrap">
+                    <div class="main-prod">
+                      <p>Every 30 Days</p>
+                      <div class="prod-image">
+                        <img src="../gtg-project/assets/origonal.png" alt="image">
+                      </div>
+                    </div>
+                    <div class="free-prod">
+                      <p>One Time <span>(Free)</span></p>
+                      <div class="pro-img-wrpa">
+                        <div class="prod-image">
+                          <img src="../gtg-project/assets/origonal.png" alt="image">
+                        </div>
+                        <div class="prod-image">
+                          <img src="../gtg-project/assets/lilly.png" alt="image">
+                        </div>
+                        <div class="prod-image">
+                          <img src="../gtg-project/assets/rose.png" alt="image">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="prod-feature">
+                  <ul>
+                    <li>1 bottle shipped monthly</li>
+                    <li><span>Free</span> Sampler for original, lily and rose fragrances</li>
+                    <li><span>50% OFF Shipping</span></li>
+                    <li>Pause or Cancel Anytime after 3 months minimum</li>
+                    <li>28 Day Money Back Guarantee*</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="AddtoCart">
+            <a href="/" class="primary-cta">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="Collection">
+    <div class="container">
+      <div class="collection-wrap">
+        <div class="content-wrap">
+          <h2>Our Collection</h2>
+          <div id="Accordian">
+            <div class="each-accordion">
+              <div class="acc-title">
+                <h4>Signature Scents</h4>
+              </div>
+              <div class="acc-desciption">
+                <p>Discover our curated line of signature perfumes, designed to become your daily companion.</p>
+              </div>
+            </div>
+            <div class="each-accordion">
+              <div class="acc-title">
+                <h4>Signature Scents</h4>
+              </div>
+              <div class="acc-desciption">
+                <p>Discover our curated line of signature perfumes, designed to become your daily companion.</p>
+              </div>
+            </div>
+            <div class="each-accordion">
+              <div class="acc-title">
+                <h4>Signature Scents</h4>
+              </div>
+              <div class="acc-desciption">
+                <p>Discover our curated line of signature perfumes, designed to become your daily companion.</p>
+              </div>
+            </div>
+            <div class="each-accordion">
+              <div class="acc-title">
+                <h4>Signature Scents</h4>
+              </div>
+              <div class="acc-desciption">
+                <p>Discover our curated line of signature perfumes, designed to become your daily companion.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="images-wrap">
+          <img src="../gtg-project/assets/pexels-cottonbro.jpg" alt="image">
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="GradientBg">
+    <div class="container">
+      <div class="inner-wrap">
+        <div class="each-item">
+          <h4 data-value="84">00%</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+        </div>
+        <div class="each-item">
+          <h4 data-value="78">00%</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+        </div>
+        <div class="each-item">
+          <h4 data-value="89">00%</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+        </div>
+        <div class="each-item">
+          <h4 data-value="90">00%</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="separated">---</div>
+  <section id="TableContent">
+    <div class="container">
+      <h2>Why GTG is the #1 Choice </h2>
+      <div class="table-content-wrapper">
+        <table>
+          <thead>
+            <tr>
+              <th>Qualities</th>
+              <th class="gtg">
+                <div>
+                  <img src="../gtg-project/assets/table-gtg-prod.jpg" alt="GTG">
+                  <span>GTG</span>
+                </div>
+              </th>
+              <th>
+                <div>
+                  <img src="../gtg-project/assets/table-arose.jpg" alt="arose">
+                  <span>Arose</span>
+                </div>
+              </th>
+              <th>
+                <div>
+                  <img src="../gtg-project/assets/table-bella.jpg" alt="bella">
+                  <span>Bella</span>
+                </div>
+              </th>
+              <th>
+                <div>
+                  <img src="../gtg-project/assets/table-daisies.jpg" alt="Daisies">
+                  <span>Daisies</span>
+                </div>
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Potency Concentration</td>
+              <td class="gtg">10x</td>
+              <td>1x</td>
+              <td>1x</td>
+              <td>10x</td>
+            </tr>
+            <tr>
+              <td>Longevity</td>
+              <td class="gtg"><img src="/gtg-project/assets/checked-bg.svg"></td>
+              <td><img src="/gtg-project/assets/crossed-transparent.svg"></td>
+              <td><img src="/gtg-project/assets/crossed-transparent.svg"></td>
+              <td><img src="/gtg-project/assets/checked-transparent.svg"></td>
+            </tr>
+            <tr>
+              <td>Sillage</td>
+              <td class="gtg"><img src="/gtg-project/assets/checked-bg.svg"></td>
+              <td><img src="/gtg-project/assets/crossed-transparent.svg"></td>
+              <td><img src="/gtg-project/assets/crossed-transparent.svg"></td>
+              <td><img src="/gtg-project/assets/crossed-transparent.svg"></td>
+            </tr>
+            <tr>
+              <td>Bottle Design Score</td>
+              <td class="gtg">9</td>
+              <td>5</td>
+              <td>6</td>
+              <td>2</td>
+            </tr>
+            <tr>
+              <td>Blend and Harmony</td>
+              <td class="gtg"><img src="/gtg-project/assets/checked-bg.svg"></td>
+              <td><img src="/gtg-project/assets/crossed-transparent.svg"></td>
+              <td><img src="/gtg-project/assets/crossed-transparent.svg"></td>
+              <td><img src="/gtg-project/assets/crossed-transparent.svg"></td>
+            </tr>
+            <tr>
+              <td>Skin Compatibility</td>
+              <td class="gtg"><img src="/gtg-project/assets/checked-bg.svg"></td>
+              <td><img src="/gtg-project/assets/crossed-transparent.svg"></td>
+              <td><img src="/gtg-project/assets/crossed-transparent.svg"></td>
+              <td><img src="/gtg-project/assets/crossed-transparent.svg"></td>
+            </tr>
+            <tr>
+              <td>Scent Profile</td>
+              <td class="gtg"><img src="/gtg-project/assets/checked-bg.svg"></td>
+              <td><img src="/gtg-project/assets/checked-transparent.svg"></td>
+              <td><img src="/gtg-project/assets/crossed-transparent.svg"></td>
+              <td><img src="/gtg-project/assets/crossed-transparent.svg"></td>
+            </tr>
+            <tr>
+              <td>Price vs. Quality</td>
+              <td class="gtg"><img src="/gtg-project/assets/checked-bg.svg"></td>
+              <td><img src="/gtg-project/assets/checked-transparent.svg"></td>
+              <td><img src="/gtg-project/assets/crossed-transparent.svg"></td>
+              <td><img src="/gtg-project/assets/checked-transparent.svg"></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+  <div class="cta-wrap">
+    <a href="#" class="primary-cta">Try It Risk-Free</a>
+  </div>
+  <footer id="Footer">
+    <div class="footer-container">
+      <div class="logo">
+        <a href="#">GTG</a>
+      </div>
+      <div class="footer-wrap">
+        <div class="footer-menu">
+          <div class="each-menu">
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Shop</a></li>
+              <li><a href="#">Fragrances</a></li>
+            </ul>
+          </div>
+          <div class="each-menu">
+            <ul>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+          <div class="each-menu">
+            <ul>
+              <li><a href="#">
+                  <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M22.2492 12.4422C22.2492 6.82294 17.7216 2.26758 12.1363 2.26758C6.55113 2.26758 2.02344 6.82294 2.02344 12.4422C2.02344 17.5206 5.72156 21.73 10.5562 22.4933V15.3834H7.98846V12.4422H10.5562V10.2006C10.5562 7.65062 12.066 6.24206 14.3759 6.24206C15.4825 6.24206 16.6397 6.44079 16.6397 6.44079V8.94472H15.3646C14.1083 8.94472 13.7165 9.72908 13.7165 10.5337V12.4422H16.5212L16.0729 15.3834H13.7165V22.4933C18.5511 21.73 22.2492 17.5208 22.2492 12.4422Z"
+                      fill="white" />
+                    <!-- Code injected by live-server -->
+                    <script>
+                      // <![CDATA[  <-- For SVG support
+                      if ('WebSocket' in window) {
+                        (function () {
+                          function refreshCSS() {
+                            var sheets = [].slice.call(document.getElementsByTagName("link"));
+                            var head = document.getElementsByTagName("head")[0];
+                            for (var i = 0; i < sheets.length; ++i) {
+                              var elem = sheets[i];
+                              var parent = elem.parentElement || head;
+                              parent.removeChild(elem);
+                              var rel = elem.rel;
+                              if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+                                var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+                                elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+                              }
+                              parent.appendChild(elem);
+                            }
+                          }
+                          var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+                          var address = protocol + window.location.host + window.location.pathname + '/ws';
+                          var socket = new WebSocket(address);
+                          socket.onmessage = function (msg) {
+                            if (msg.data == 'reload') window.location.reload();
+                            else if (msg.data == 'refreshcss') refreshCSS();
+                          };
+                          if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+                            console.log('Live reload enabled.');
+                            sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+                          }
+                        })();
+                      }
+                      else {
+                        console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+                      }
+                      // ]]>
+                    </script>
+                  </svg>
+                  Facebook</a></li>
+              <li><a href="#">
+                  <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                      d="M16.1819 3.2793H8.0916C5.29901 3.2793 3.03516 5.54315 3.03516 8.33574V16.426C3.03516 19.2186 5.29901 21.4825 8.0916 21.4825H16.1819C18.9745 21.4825 21.2383 19.2186 21.2383 16.426V8.33574C21.2383 5.54315 18.9745 3.2793 16.1819 3.2793ZM19.4686 16.426C19.463 18.2389 17.9947 19.7072 16.1819 19.7127H8.0916C6.27871 19.7072 4.81046 18.2389 4.80491 16.426V8.33574C4.81046 6.52285 6.27871 5.0546 8.0916 5.04905H16.1819C17.9947 5.0546 19.463 6.52285 19.4686 8.33574V16.426ZM16.9404 8.58856C17.4989 8.58856 17.9517 8.13579 17.9517 7.57727C17.9517 7.01876 17.4989 6.56598 16.9404 6.56598C16.3818 6.56598 15.9291 7.01876 15.9291 7.57727C15.9291 8.13579 16.3818 8.58856 16.9404 8.58856ZM12.1367 7.83009C9.62341 7.83009 7.58595 9.86756 7.58595 12.3809C7.58595 14.8942 9.62341 16.9317 12.1367 16.9317C14.6501 16.9317 16.6875 14.8942 16.6875 12.3809C16.6903 11.1731 16.2116 10.014 15.3576 9.16002C14.5036 8.30599 13.3445 7.8274 12.1367 7.83009ZM9.35571 12.3809C9.35571 13.9168 10.6008 15.1619 12.1367 15.1619C13.6727 15.1619 14.9178 13.9168 14.9178 12.3809C14.9178 10.8449 13.6727 9.59985 12.1367 9.59985C10.6008 9.59985 9.35571 10.8449 9.35571 12.3809Z"
+                      fill="white" />
+                    <!-- Code injected by live-server -->
+                    <script>
+                      // <![CDATA[  <-- For SVG support
+                      if ('WebSocket' in window) {
+                        (function () {
+                          function refreshCSS() {
+                            var sheets = [].slice.call(document.getElementsByTagName("link"));
+                            var head = document.getElementsByTagName("head")[0];
+                            for (var i = 0; i < sheets.length; ++i) {
+                              var elem = sheets[i];
+                              var parent = elem.parentElement || head;
+                              parent.removeChild(elem);
+                              var rel = elem.rel;
+                              if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+                                var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+                                elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+                              }
+                              parent.appendChild(elem);
+                            }
+                          }
+                          var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+                          var address = protocol + window.location.host + window.location.pathname + '/ws';
+                          var socket = new WebSocket(address);
+                          socket.onmessage = function (msg) {
+                            if (msg.data == 'reload') window.location.reload();
+                            else if (msg.data == 'refreshcss') refreshCSS();
+                          };
+                          if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+                            console.log('Live reload enabled.');
+                            sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+                          }
+                        })();
+                      }
+                      else {
+                        console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+                      }
+                      // ]]>
+                    </script>
+                  </svg>
+                  Instagram</a></li>
+              <li><a href="#">
+                  <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M17.3713 4.29102H20.1625L14.0644 11.1449L21.2383 20.4716H15.6212L11.2216 14.8151L6.18757 20.4716H3.39461L9.91714 13.1406L3.03516 4.29102H8.7949L12.7717 9.46135L17.3713 4.29102ZM16.3915 18.8287H17.9383L7.95448 5.84767H6.29474L16.3915 18.8287Z"
+                      fill="white" />
+                    <!-- Code injected by live-server -->
+                    <script>
+                      // <![CDATA[  <-- For SVG support
+                      if ('WebSocket' in window) {
+                        (function () {
+                          function refreshCSS() {
+                            var sheets = [].slice.call(document.getElementsByTagName("link"));
+                            var head = document.getElementsByTagName("head")[0];
+                            for (var i = 0; i < sheets.length; ++i) {
+                              var elem = sheets[i];
+                              var parent = elem.parentElement || head;
+                              parent.removeChild(elem);
+                              var rel = elem.rel;
+                              if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+                                var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+                                elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+                              }
+                              parent.appendChild(elem);
+                            }
+                          }
+                          var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+                          var address = protocol + window.location.host + window.location.pathname + '/ws';
+                          var socket = new WebSocket(address);
+                          socket.onmessage = function (msg) {
+                            if (msg.data == 'reload') window.location.reload();
+                            else if (msg.data == 'refreshcss') refreshCSS();
+                          };
+                          if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+                            console.log('Live reload enabled.');
+                            sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+                          }
+                        })();
+                      }
+                      else {
+                        console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+                      }
+                      // ]]>
+                    </script>
+                  </svg>
+                  X</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="newsletter">
+          <h3>Join our newsletter to stay up to date on features and releases.</h3>
+          <div class="news-form">
+            <form class="newsletter-form">
+              <div class="input-wrap">
+                <input type="email" name="email" class="email-input" placeholder="Enter your email" required>
+                <button type="submit" class="newsletter-btn">
+                  Subscribe
+                </button>
+              </div>
+            </form>
+            <p class="newsletter-note">
+              By subscribing you agree to with our
+              <a href="#" class="privacy-link">Privacy Policy</a>
+              and provide consent to receive updates from our company.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="../gtg-project/js/script.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,20 @@
+{
+  "name": "gtg-project",
+  "version": "1.0.0",
+  "description": "GTG",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "sass scss/style.scss:css/style.css --style=compressed",
+    "minify-js": "terser js/script.js -o js/script.min.js --source-map",
+    "build": "npm run build:css && npm run minify-js",
+    "watch": "npm run build && npm run watch:css",
+    "watch:css": "sass scss/style.scss:css/style.css --style=compressed --watch"
+  },
+  "author": "Harish S",
+  "license": "ISC",
+  "devDependencies": {
+    "chokidar-cli": "^3.0.0",
+    "sass": "^1.96.0",
+    "terser": "^5.44.1"
+  }
+}

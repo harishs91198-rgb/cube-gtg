@@ -1,0 +1,45 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box
+}
+
+html {
+    overflow-x: hidden;
+
+}
+
+body {
+    font-family: "Inter", sans-serif !important;
+    margin: 0;
+    overflow-x: hidden;
+    position: relative;
+}
+
+
+.container {
+    // max-width: 1328px;
+    margin: 0 auto;
+
+    @media (max-width: 767.98px) {
+        width: auto !important;
+        max-width: 100%;
+        padding: 0 15px;
+    }
+
+    @media (min-width: 768px) {
+        max-width: 720px !important;
+    }
+
+    @media (min-width: 992px) {
+        max-width: 960px !important;
+    }
+
+    @media (min-width: 1200px) {
+        max-width: 1140px !important;
+    }
+
+    @media (min-width: 1330px) {
+        max-width: 1328px !important;
+    }
+}

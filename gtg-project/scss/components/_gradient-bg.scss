@@ -1,0 +1,63 @@
+#GradientBg {
+  padding: 56px 0 58px;
+  background: linear-gradient(180deg, #032E15 0%, #016630 100%);
+
+  @media (max-width: 1199.98px) {
+    padding: 50px 0;
+  }
+
+  @media (max-width: 767.98px) {
+    padding: 40px 0;
+  }
+
+  .inner-wrap {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 86px;
+
+    @media (min-width: 768px) and (max-width: 991.98px) {
+      gap: 30px;
+    }
+
+    @media (max-width: 767.98px) {
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .each-item {
+      width: 215px;
+
+      @media (max-width: 767.98px) {
+        width: calc(100% / 2 - 20px);
+      }
+
+      h4 {
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 48px;
+        leading-trim: both;
+        text-edge: cap;
+        text-align: center;
+        color: #FFFFFF;
+        margin: 0 0 19px;
+
+        @media (max-width: 767.98px) {
+          font-size: 30px;
+          line-height: 1;
+          margin: 0 0 10px;
+        }
+      }
+
+      p {
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        color: #FFFFFF;
+        margin: 0;
+      }
+
+    }
+  }
+}
