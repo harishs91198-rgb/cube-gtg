@@ -150,7 +150,7 @@
                 background-color: rgba(0, 201, 80, 0);
 
                 span {
-                  background: url('/gtg-project/assets/radio-checked.svg');
+                  background: url('/assets/radio-checked.svg');
                   background-repeat: no-repeat;
                 }
 
@@ -166,7 +166,7 @@
 
               span {
                 position: absolute;
-                background: url('/gtg-project/assets/radio-unchecked.svg');
+                background: url('/assets/radio-unchecked.svg');
                 background-repeat: no-repeat;
                 width: 17px;
                 height: 17px;
@@ -279,7 +279,7 @@
                       position: absolute;
                       width: 10px;
                       height: 10px;
-                      background: url('/gtg-project/assets/prod-radio-unchecked.svg');
+                      background: url('/assets/prod-radio-unchecked.svg');
                       background-repeat: no-repeat;
                       background-size: contain;
                     }
@@ -305,7 +305,7 @@
                   &.active {
                     .radio-wrap {
                       span {
-                        background: url('/gtg-project/assets/prod-radio-checked.svg');
+                        background: url('/assets/prod-radio-checked.svg');
                         background-repeat: no-repeat;
                         background-size: contain;
 
@@ -507,7 +507,7 @@
                     position: absolute;
                     top: 3px;
                     left: -20px;
-                    background: url('/gtg-project/assets/list-bullet.svg');
+                    background: url('/assets/list-bullet.svg');
                     width: 14px;
                     height: 14px;
                   }
