@@ -22,9 +22,6 @@
 
     .content-wrap {
       width: 626px;
-
-      // display: inline-block;
-      // vertical-align: middle;
       @media (min-width: 1200px) and (max-width: 1329.98px) {
         width: calc(100% / 2 - 50px);
       }
